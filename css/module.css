@@ -1,7 +1,5 @@
 .m-hero {
-    background-color: #87adbe;
-    opacity: 0.7;
-    /* background-image: url("../img/heroBackgroud.jpg");    */
+    background-color: white;
     background-repeat: no-repeat;
     width: 100%;
     float: left;
@@ -39,7 +37,7 @@
 .m-num-votes {
     display: block;
     text-align: center;
-    background-color: #486985;
+    background-color: #3C91E6;
     color: #000;
     position: absolute;
     top: 0;
@@ -70,23 +68,23 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    background: #486985;
+    background-color: #3C91E6;    
 }
 
 .m-card {
-    background-color: #273f53;
+    background-color: #FA824C;
     min-width: 10vw;
     min-height: 10vh;
     flex: 1;
     margin: 0.5em;
     padding: 1.5em;
-    color: aqua;
+    color: #342E37;
 }
 
 
 .m-article-card {
     min-width: 28vw;
-    background-color: white;
+    background-color: #3C91E6;    
     opacity: 0.9;
     padding: 0.5em;
 }

@@ -1,13 +1,13 @@
 body {
     margin: 0;
     background: #fafafa url('../img/background.png');
-    font-family: 'Roboto Slab', serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-y: auto;
 }
 
 header {
     height: 12vh;
-    background-color: rgb(165, 177, 189);
+    background-color: #9FD356;
     position: fixed;
     left: 5%;
     z-index: 99999;
@@ -34,13 +34,16 @@ main {
     margin-bottom: 4vh;
 }
 
+h3{
+    text-decoration: underline;
+}
 footer {
     position: fixed;
     text-align: center;
     height: 4vh;
     bottom: 0;
-    background-color: black;
-    color: azure;
+    background-color: #3C91E6;
+    color: rgb(11, 48, 48);
     width: 100%;
     padding-top: 5px;
 }
@@ -52,8 +55,7 @@ footer {
 }
 
 article {
-    background-color: rgb(67, 76, 104);
-    opacity: 0.7;
+    background-color:#FAFFFD;
     flex: 1;
     margin: 0.5em;
 }
@@ -83,6 +85,11 @@ blockquote {
 }
 
 /*Media Queries*/
+h2,h3{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
 
 @media (min-width:50px) and (max-width:450px) {
     article {
